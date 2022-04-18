@@ -11,15 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from TECNO-KD7 device
-$(call inherit-product, device/tecno/TECNO-KD7/device.mk)
+$(call inherit-product, device/tecno/TECNO_KD7/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TECNO-KD7
-PRODUCT_NAME := omni_TECNO-KD7
+PRODUCT_DEVICE := TECNO_KD7
+PRODUCT_NAME := omni_TECNO_KD7
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KD7
 PRODUCT_MANUFACTURER := tecno
