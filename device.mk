@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tecno/TECNO-KD7
+LOCAL_PATH := device/tecno/TECNO_KD7
